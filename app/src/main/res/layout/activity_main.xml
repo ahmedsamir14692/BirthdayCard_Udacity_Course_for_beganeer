@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.android.birthdaycard.MainActivity"
+    android:background="#faf8f8"
+    android:ignoreGravity="@drawable/abc_btn_switch_to_on_mtrl_00001">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/androidparty"
+        android:scaleType="fitXY"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffef6e"
+        android:text="happy birth day"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="32sp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+android:fontFamily="sans-serif-smallcaps"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="from ahmed"
+        android:textSize="32sp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="8dp"
+
+
+        />
+</RelativeLayout>
